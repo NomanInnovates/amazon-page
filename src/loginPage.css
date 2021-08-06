@@ -1,0 +1,87 @@
+*{
+    /* margin: 0 !important; */
+    padding: 0;
+    /* box-sizing: border-box !important; */
+}
+.login{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   background: #fff; 
+
+}
+.login_logo{
+    width:100px;
+    object-fit: contain;
+    margin: 20px auto;
+}
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+}
+.login_container > h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.login_container > form > h5 {
+    font-size: 13px !important;
+    color:#222 !important; 
+    font-weight: bold;
+}
+.login_container > form > p {
+    margin-bottom: 10px !important;
+}
+.login_container > form{
+    margin-bottom: 5px;
+}
+.login_container > form > input {
+    height: 2rem;
+    width: 98%;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+
+
+}
+.LoginPage_Sigin_btn {
+    background: #f0c14b;
+    border:1px solid;
+    margin-top:10px;
+    border-color:#a88734 #9c7e31 #846a29;
+    color:#111;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+}
+.login_registerButton {
+    border:1px solid grey;
+    color:#111;
+    width: 300px;
+    margin: 15px auto;
+    height: 30px;
+    border-radius: 2px;
+}
+.login_divider{
+    width: 300px; 
+    height: 14px; 
+    border-bottom: 1px solid #bbb; 
+    text-align: center
+}
+.login_divider> span{
+    font-size: 18px; 
+    background-color: #fff; 
+    padding: 0 10px
+}
