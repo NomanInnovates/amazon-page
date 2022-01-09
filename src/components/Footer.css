@@ -1,0 +1,56 @@
+.footer {
+  background-color: #232f3e;
+}
+.footer__container {
+  max-width: 1500px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.footer__title {
+  font-weight: 800;
+}
+.footer__title ~ p {
+  font-size: 0.9rem;
+}
+
+.footer__copyright {
+  color: #fff;
+  background-color: #232f3e;
+  padding: 2rem;
+  position: relative;
+}
+.footer__copyright__info {
+  transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.footer__copyright span {
+  padding-right: 1rem;
+  font-size: small;
+}
+.footer__copyright:last-child {
+  color: #918382;
+}
+.footer__copyright__info a {
+  color: #918382;
+}
+@media (max-width: 508px) {
+  .hideOnSmall {
+    display: none;
+  }
+  .footer__copyright__info {
+    transform: none;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+}
